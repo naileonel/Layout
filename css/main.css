@@ -1,0 +1,68 @@
+.container{
+	width: 700px;
+	margin: 0px auto;
+
+}
+ul{
+	display: inline;
+	margin: 50px;
+}
+hr{
+   height:5px;
+	width:50px;
+    color:#0040FF;
+}
+img{
+	height: 210px;
+	width: 210px;
+	text-align: center;
+	display: block;
+
+}
+p{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin:-40px -200px 20px 50px;
+ line-height: 50px;
+}
+
+div{
+	display: inline-block;
+
+}
+h1{
+	display: inline;
+    text-align:center;
+  }
+  .img{
+    display: inline-block;
+  }
+.1{
+	top:30px;
+	position:absolute;
+}
+.2{
+	left:290px;
+	top: 90px;
+	position:absolute;
+}
+.3{
+	left: 570px;
+	top: 90px;
+	position:absolute;
+}
+.4{
+    top:375px;
+	position:absolute;
+}
+.5{
+	left: 290px;
+	top:375px;
+	position: absolute;
+}
+.6{
+	left: 570px;
+	top: 575px;
+	position: absolute;
+}
