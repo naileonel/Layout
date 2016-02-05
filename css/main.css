@@ -1,68 +1,130 @@
 .container{
-	width: 700px;
-	margin: 0px auto;
-
+	width: 100%;
+	margin:auto;
 }
-ul{
-	display: inline;
-	margin: 50px;
-}
+/*lineas*/
 hr{
-   height:5px;
-	width:50px;
-    color:#0040FF;
+   background-color:black;
+	height:4px;
+	width:110px;
+	margin-left:23%;
 }
-img{
-	height: 210px;
-	width: 210px;
-	text-align: center;
-	display: block;
-
+.linea{
+	background-color:#2E2E2E;
+	height:4px;
+	width:10%; 
+	margin-left:43%;
 }
-p{
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin:-40px -200px 20px 50px;
- line-height: 50px;
+/* menu */
+ul{
+    display: inline-block;
+    margin-left:25%; 
+    margin-right: 300px;
+    font-size: 30px;
+}
+li{
+	display: inline;
+}
+/*imagenes*/
+.logo{
+	width: 100%;
+	margin-left: 300px; 
+}
+.grupal{
+	width:50%;
+	margin-left:380px;
+}
+.margen{
+	background-color: gray;
+	height: 4px;
+	width:55%;
+	margin-left:20%;
 }
 
 div{
 	display: inline-block;
-
+}
+/*texto*/
+p{
+  text-align:center;
+  margin-right:30%; 
+  margin-left:29%;
+  font-size:25px;
 }
 h1{
+   margin-left:23%;
+}
+h2{
+  position: relative;
+  left:10px;
+  top:-53px;
+}
+/*cuadros*/
+.cuadro{
 	display: inline;
-    text-align:center;
-  }
-  .img{
-    display: inline-block;
-  }
+	position: absolute;
+	margin-left:23%;
+}
+.cuadro2{
+	display: inline;
+	position:absolute;
+	margin-left:23%;
+	margin-top: 15%;
+}
+/* redondeado de imagen*/
+.profile{
+	position:absolute;
+	display: inline;
+	width:20%;
+	height:30%;
+	border-radius:50%;
+	margin-left:39%;
+	margin-top:5%;
+}
+/* titulo */
+.nombre{
+	margin-width:20%;
+	margin-left:-3%;
+	font-size:40px;
+	text-align: center;
+	margin-top:27%;
+}
+/* resumen */
+.lorem{
+	text-align: right;
+}
+/* titulos de habilidades y portafolio */
+.hab{
+	text-align:30px;
+	margin-left:30%;
+}
+.port{
+	margin-left:30%;
+}
+/* listas */
+.html{
+	margin-left:30%;
+}
+.css{
+	margin-left:30%;
+	margin-top:10px;
+}
+.java{
+	margin-left:30%;
+	margin-top:10px;
+}
+/* cuadros paisajes */
 .1{
-	top:30px;
 	position:absolute;
 }
 .2{
-	left:290px;
-	top: 90px;
 	position:absolute;
 }
-.3{
-	left: 570px;
-	top: 90px;
-	position:absolute;
+img {
+	width:30%;
+	height:30%;
+	display: inline-block;
+	position:relative;
+
 }
-.4{
-    top:375px;
-	position:absolute;
-}
-.5{
-	left: 290px;
-	top:375px;
-	position: absolute;
-}
-.6{
-	left: 570px;
-	top: 575px;
-	position: absolute;
-}
+
