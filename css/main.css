@@ -93,38 +93,48 @@ h2{
 .lorem{
 	text-align: right;
 }
-/* titulos de habilidades y portafolio */
+/* habilidades y portafolio */
+h3{
+	margin-left: 30%;
+	font-size: 20px;
+}
+/*Barras Porcentuales*/
+.bar{
+	
+	height: 30px;
+	background-color: gray; 
+	margin: 4px;
+}
+#html{
+	width:50%;
+	margin-left:23%;
+}
+#css{
+	width:35%;
+	margin-left:23%;
+}
+#js{
+	width:20%;
+    margin-left:23%;
+}
 .hab{
-	text-align:30px;
-	margin-left:30%;
+	color: white;
+	margin:2px;
 }
-.port{
-	margin-left:30%;
+/*PORTAFOLIO*/
+.imgport{
+	width: 200px;
+	height: 150px;
+	margin: 20px;
 }
-/* listas */
-.html{
-	margin-left:30%;
-}
-.css{
-	margin-left:30%;
-	margin-top:10px;
-}
-.java{
-	margin-left:30%;
-	margin-top:10px;
-}
-/* cuadros paisajes */
-.1{
-	position:absolute;
-}
-.2{
-	position:absolute;
-}
-img {
-	width:30%;
-	height:30%;
-	display: inline-block;
-	position:relative;
 
+.portfolio{
+	display: inline-block;
+	position: relative;
 }
+.content{
+	margin-left:23%;
+}
+
+
 
